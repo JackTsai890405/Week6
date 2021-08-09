@@ -1,0 +1,12 @@
+.menu-container {
+    border-bottom: 1px solid #707070;
+    .menu {
+        &-link {
+            padding: 14px 18px;
+            color: #707070;
+            &:hover {
+                color: pink;
+            }
+        }
+    }
+}

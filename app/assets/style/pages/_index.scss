@@ -1,0 +1,102 @@
+// Banner
+.banner-full {
+    height: 480px;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/ricardo-gomez-angel-UrOZTfXT0h0-unsplash%20(1).jpg");
+
+    .banner {
+        &-title {
+            color: white;
+            font-size: 32px;
+        }
+        &-date {
+            color: white;
+            font-size: 20px;
+        }
+        &-button {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        &-buy {
+            background-color: #e31277;
+            color: white;
+        }
+    }
+}
+
+// Menu
+.menu {
+    &-list {
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+// 熱門特展
+.hot {
+    &-row {
+        background-color: #efefef;
+    }
+    &-image {
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg);
+        height: 350px;
+    }
+    &-detail {
+        width: 80%;
+    }
+    &-buy {
+        background-color: #630834;
+        color: #ffffff;
+    }
+    &-collect {
+        border: 1px solid #630834;
+        color: #630834;
+    }
+}
+
+// 直播回顧 live
+.live {
+    &-background {
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/people2.png);
+        height: 480px;
+    }
+    &-people {
+        height: 128px;
+        width: 128px;
+    }
+    &-card {
+        background-color: #190014cc;
+    }
+    &-button {
+        width: 30%;
+        background-color: #e31277;
+    }
+}
+@media (min-width: 768px) {
+    .live {
+        &-card {
+            width: 50%;
+        }
+    }
+}
+
+// 猜你也喜歡... like
+.like {
+    &-image {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+//  訂閱 subscribe
+.subscribe {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
+    height: 400px;
+    &-mail {
+        background-color: white;
+        flex-basis: 210px;
+    }
+    &-button {
+        background-color: #e31277;
+        flex-basis: 135px;
+    }
+}

@@ -1,0 +1,23 @@
+.checkout1 {
+    &-view {
+        min-height: 78vh;
+    }
+    &-progressbar {
+        background-color: #e31277;
+    }
+    &-button {
+        background-color: #e31277;
+        border: 1px solid #e31277;
+    }
+    &-button-notyet {
+        background-color: #fff;
+        border: 1px solid #e31277;
+    }
+    &-image {
+        height: 85px;
+        width: 160px;
+    }
+    &-nextStepButton {
+        background-color: #e31277;
+    }
+}

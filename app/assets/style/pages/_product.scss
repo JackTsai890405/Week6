@@ -1,0 +1,42 @@
+.taiwanDesign {
+    background-color: #630834;
+    &-image {
+        height: 285px;
+    }
+}
+
+.onlineDesign {
+    color: #630834;
+    &-image {
+        height: 285px;
+    }
+}
+
+.kaohsiungDesign {
+    background-color: #630834;
+    &-image {
+        height: 285px;
+    }
+}
+
+// 猜你也喜歡... like
+.like {
+    &-image {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+//  訂閱 subscribe
+.subscribe {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
+    height: 400px;
+    &-mail {
+        background-color: white;
+        flex-basis: 210px;
+    }
+    &-button {
+        background-color: #e31277;
+        flex-basis: 135px;
+    }
+}

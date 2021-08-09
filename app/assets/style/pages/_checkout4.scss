@@ -1,0 +1,16 @@
+.checkout4 {
+    &-check_circle {
+        width: 44px;
+        height: 44px;
+    }
+    &-primaryColor {
+        color: #630834;
+    }
+    &-goHome {
+        background-color: #e31277;
+    }
+
+    &-continue {
+        border: 1px solid #630834;
+    }
+}

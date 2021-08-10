@@ -49,9 +49,38 @@
   <!-- 訂單頁面 1 -->
 <section class="container mt-5 checkout1">
     <!-- 電腦版 -->
-    <div class="d-lg-flex d-none row checkout1-view">
-        <div class="col-md-8 col-12 pe-md-3_75">
-            <div class="position-relative mb-md-7 mb-5">
+    <div class="d-lg-flex d-none row checkout1-view gx-7_5">
+        <div class="col-md-8 col-12">
+            <div class="position-relative  mb-md-7 mb-5">
+                <div class="progress checkout1-progressbar" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100">
+                    </div>
+                </div>
+
+                <button type="button"
+                    class="position-absolute top-0 start-20 translate-middle btn btn-sm rounded-circle checkout1-button"
+                    style="width: 0.5rem; height:0.5rem;"></button>
+
+                <p class="position-absolute top-20 start-20 translate-middle">確認訂單</p>
+
+                <button type="button"
+                    class="position-absolute top-0 start-40 translate-middle btn btn-sm rounded-circle checkout1-button-notyet"
+                    style="width: 0.5rem; height:0.5rem;"></button>
+                <p class="position-absolute top-20 start-40 translate-middle">填寫訂購資訊</p>
+
+                <button type="button"
+                    class="position-absolute top-0 start-60 translate-middle btn btn-sm rounded-circle checkout1-button-notyet"
+                    style="width: 0.5rem; height:0.5rem;"></button>
+                <p class="position-absolute top-20 start-60 translate-middle">填寫付款資訊</p>
+
+                <button type="button"
+                    class="position-absolute top-0 start-80 translate-middle btn btn-sm rounded-circle checkout1-button-notyet"
+                    style="width: 0.5rem; height:0.5rem;"></button>
+                <p class="position-absolute top-20 start-80 translate-middle">完成訂購</p>
+            </div>
+            <div class="">
+                <!-- <div class="position-relative mb-md-7 mb-5">
                 <div class="progress checkout1-progressbar" style="height: 1px;">
                     <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
                         aria-valuemax="100">
@@ -77,78 +106,79 @@
                     class="position-absolute top-0 start-80 translate-middle btn btn-sm rounded-circle checkout1-button-notyet"
                     style="width: 0.5rem; height:0.5rem;"></button>
                 <p class="position-absolute top-25 start-80 translate-middle">完成訂購</p>
-            </div>
+            </div> -->
 
-            <ul class="">
-                <li class="d-flex justify-content-between align-items-center mb-md-5">
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg"
-                        alt="alina" class="checkout1-image">
-                    <div class="">
-                        <h5 class="mb-md-1 fs-6 fw-bold">2020 台味設計展</h3>
-                            <p class="mb-md-1">01 JUN — 31 OCT</p>
-                            <p>全票</p>
-                    </div>
-                    <p class="fs-5">NT$350</p>
-                    <div class="d-flex align-items-center">
+                <ul class="">
+                    <li class="d-flex justify-content-between align-items-center mb-md-5">
+                        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg"
+                            alt="alina" class="checkout1-image">
+                        <div class="">
+                            <h5 class="mb-md-1 fs-6 fw-bold">2020 台味設計展</h3>
+                                <p class="mb-md-1">01 JUN — 31 OCT</p>
+                                <p>全票</p>
+                        </div>
+                        <p class="fs-5">NT$350</p>
+                        <div class="d-flex align-items-center">
+                            <span class="material-icons-outlined">
+                                remove
+                            </span>
+                            <p class="mx-md-4 fs-5">01</p>
+                            <span class="material-icons-outlined">
+                                add
+                            </span>
+                        </div>
                         <span class="material-icons-outlined">
-                            remove
+                            close
                         </span>
-                        <p class="mx-md-4 fs-5">01</p>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center mb-md-5">
+                        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg"
+                            alt="michel" class="checkout1-image">
+                        <div class="">
+                            <h5 class="mb-md-1 fs-6 fw-bold">2020 台味設計展</h3>
+                                <p class="mb-md-1">01 JUN — 31 OCT</p>
+                                <p>全票</p>
+                        </div>
+                        <p class="fs-5">NT$350</p>
+                        <div class="d-flex align-items-center">
+                            <span class="material-icons-outlined">
+                                remove
+                            </span>
+                            <p class="mx-md-4 fs-5">01</p>
+                            <span class="material-icons-outlined">
+                                add
+                            </span>
+                        </div>
                         <span class="material-icons-outlined">
-                            add
+                            close
                         </span>
-                    </div>
-                    <span class="material-icons-outlined">
-                        close
-                    </span>
-                </li>
-                <li class="d-flex justify-content-between align-items-center mb-md-5">
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg"
-                        alt="michel" class="checkout1-image">
-                    <div class="">
-                        <h5 class="mb-md-1 fs-6 fw-bold">2020 台味設計展</h3>
-                            <p class="mb-md-1">01 JUN — 31 OCT</p>
-                            <p>全票</p>
-                    </div>
-                    <p class="fs-5">NT$350</p>
-                    <div class="d-flex align-items-center">
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center">
+                        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg"
+                            alt="moralis" class="checkout1-image">
+                        <div class="">
+                            <h5 class="mb-md-1 fs-6 fw-bold">2020 台味設計展</h3>
+                                <p class="mb-md-1">01 JUN — 31 OCT</p>
+                                <p>全票</p>
+                        </div>
+                        <p class="fs-5">NT$350</p>
+                        <div class="d-flex align-items-center">
+                            <span class="material-icons-outlined">
+                                remove
+                            </span>
+                            <p class="mx-md-4 fs-5">01</p>
+                            <span class="material-icons-outlined">
+                                add
+                            </span>
+                        </div>
                         <span class="material-icons-outlined">
-                            remove
+                            close
                         </span>
-                        <p class="mx-md-4 fs-5">01</p>
-                        <span class="material-icons-outlined">
-                            add
-                        </span>
-                    </div>
-                    <span class="material-icons-outlined">
-                        close
-                    </span>
-                </li>
-                <li class="d-flex justify-content-between align-items-center">
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg"
-                        alt="moralis" class="checkout1-image">
-                    <div class="">
-                        <h5 class="mb-md-1 fs-6 fw-bold">2020 台味設計展</h3>
-                            <p class="mb-md-1">01 JUN — 31 OCT</p>
-                            <p>全票</p>
-                    </div>
-                    <p class="fs-5">NT$350</p>
-                    <div class="d-flex align-items-center">
-                        <span class="material-icons-outlined">
-                            remove
-                        </span>
-                        <p class="mx-md-4 fs-5">01</p>
-                        <span class="material-icons-outlined">
-                            add
-                        </span>
-                    </div>
-                    <span class="material-icons-outlined">
-                        close
-                    </span>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="col-md-4 col-12 ps-md-3_75 align-self-end">
+        <div class="col-md-4 col-12 align-self-end">
             <div class="d-flex justify-content-between fs-5 mb-md-3">
                 <p>小計</p>
                 <p>NT$1050</p>

@@ -16932,7 +16932,7 @@ li {
 }
 
 .checkout1-view {
-  min-height: 78vh;
+  min-height: calc(100vh - 80px - 40px);
 }
 
 .checkout1-progressbar {
@@ -16956,6 +16956,41 @@ li {
 
 .checkout1-nextStepButton {
   background-color: #e31277;
+}
+
+/* #E31277 */
+/* 線 2px 園 1px border-radius 50% */
+.progressBar {
+  border-top: 2px solid #e31277;
+}
+
+.step::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border: 1px solid #e31277;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.current::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #e31277;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .checkout2-goBack {

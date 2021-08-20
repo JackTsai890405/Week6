@@ -16786,8 +16786,11 @@ li {
 }
 
 .banner-full {
-  height: 480px;
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/ricardo-gomez-angel-UrOZTfXT0h0-unsplash%20(1).jpg");
+}
+
+.banner-full .banner {
+  height: 480px;
 }
 
 .banner-full .banner-title {
@@ -16810,9 +16813,18 @@ li {
   color: white;
 }
 
+.menu {
+  height: 52px;
+  overflow-y: hidden;
+}
+
 .menu-list {
-  overflow-x: scroll;
+  overflow-x: auto;
   white-space: nowrap;
+}
+
+.menu-link:hover {
+  border-bottom: 1px solid #e31277;
 }
 
 .hot-row {
@@ -16863,9 +16875,28 @@ li {
   }
 }
 
-.like-image {
-  width: 350px;
+.like .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.like .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px !important;
+}
+
+.like .card-img-top {
   height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .subscribe {
@@ -16875,14 +16906,10 @@ li {
 
 .subscribe-mail {
   background-color: white;
-  -ms-flex-preferred-size: 210px;
-      flex-basis: 210px;
 }
 
 .subscribe-button {
   background-color: #e31277;
-  -ms-flex-preferred-size: 135px;
-      flex-basis: 135px;
 }
 
 .taiwanDesign {
@@ -16891,6 +16918,8 @@ li {
 
 .taiwanDesign-image {
   height: 285px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .onlineDesign {
@@ -16899,6 +16928,8 @@ li {
 
 .onlineDesign-image {
   height: 285px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .kaohsiungDesign {
@@ -16907,11 +16938,15 @@ li {
 
 .kaohsiungDesign-image {
   height: 285px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .like-image {
   width: 350px;
   height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .subscribe {

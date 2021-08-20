@@ -6,14 +6,20 @@ current: index
 ---
 
 <!-- Banner -->
-<section class="container-fluid banner-full bg-cover">
-    <div class="container banner d-flex flex-column justify-content-center h-100">
-        <h2 class="banner-title mb-2">台北當代藝術展</h2>
-        <p class="banner-date mb-4">01 JUN - 31 OCT</p>
-        <div class="d-flex">
-            <a href="#" class="btn btn-primary me-4 me-md-2 banner-button banner-buy">購買票券</a>
-            <a href="#" class="banner-button btn  btn-outline-light">詳細資訊</a>
+<section class="banner-full bg-cover">
+    <div class="container banner">
+        <div class="row h-100 align-items-center">
+            <div class="offset-md-1">
+                <h2 class="banner-title mb-2">台北當代藝術展</h2>
+                <p class="banner-date mb-4">01 JUN - 31 OCT</p>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-primary me-4 me-md-2 banner-button banner-buy">購買票券</a>
+                    <a href="#" class="banner-button btn  btn-outline-light">詳細資訊</a>
+                </div>
+            </div>
+
         </div>
+
 
     </div>
 </section>
@@ -21,7 +27,7 @@ current: index
 <!-- Menu -->
 <section class="menu-container mb-5 mb-md-15">
     <div class="menu">
-        <ul class="nav justify-content-center menu-list flex-nowrap">
+        <ul class="nav justify-content-md-center menu-list flex-nowrap">
             <li class="nav-item">
                 <a class="menu-link nav-link" aria-current="page" href="#">音樂</a>
             </li>
@@ -58,7 +64,7 @@ current: index
     <h2 class="hot-title fw-bold fs-2 mb-6 mb-md-2">熱門特展</h2>
 
     <ul>
-        <li class="row hot-row mb-md-5 mb-4 g-0">
+        <li class="row hot-row mb-md-5 mb-4">
             <!-- 圖 -->
             <div class="hot-image bg-cover col-md-4"></div>
             <!-- 文 -->
@@ -104,7 +110,7 @@ current: index
                 </div>
         </li>
 
-        <li class="row hot-row mb-md-5 mb-4 g-0">
+        <li class="row hot-row mb-md-5 mb-4">
             <!-- 圖 -->
             <div class="hot-image bg-cover col-md-4"></div>
             <!-- 文 -->
@@ -153,7 +159,7 @@ current: index
                 </div>
         </li>
 
-        <li class="row hot-row g-0">
+        <li class="row hot-row">
             <!-- 圖 -->
             <div class="hot-image bg-cover col-md-4"></div>
             <!-- 文 -->
@@ -224,34 +230,39 @@ current: index
 </section>
 
 <!-- 猜你也喜歡... like -->
-<section class="container mb-6 mb-md-15">
+<section class="container mb-6 mb-md-15 like">
     <h2 class="fw-bold fs-2 mb-6 mb-md-2">猜你也喜歡...</h2>
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg"
-                    class="d-block w-100" alt="wood">
-                <h5 class="card-title mb-1 fw-bold  mt-md-1 mt-2">No.22 線上設計展</h5>
-                <p class="card-text fs-5">
-                    $350
-                </p>
+    <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card border-0">
+                    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg?raw=true"
+                        class="card-img-top mb-1" alt="...">
+                    <div class="card-body p-0">
+                        <h5 class="card-title fw-bold">No.22 線上設計展</h5>
+                        <p class="card-text h5 mb-1">$350</p>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg"
-                    class="d-block w-100" alt="petri">
-                <h5 class="card-title mb-1 fw-bold  mt-md-1 mt-2">No.22 線上設計展</h5>
-                <p class="card-text fs-5">
-                    $350
-                </p>
+            <div class="swiper-slide">
+                <div class="card border-0">
+                    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg?raw=true"
+                        class="card-img-top mb-1" alt="...">
+                    <div class="card-body p-0">
+                        <h5 class="card-title fw-bold">No.22 線上設計展</h5>
+                        <p class="card-text h5 mb-1">$350</p>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/museums-victoria-kiDwVL_5ZBY-unsplash%20(1).jpg"
-                    class="d-block w-100" alt="SIR OLIVER LODGE">
-                <h5 class="card-title mb-1 fw-bold  mt-md-1 mt-2">No.22 線上設計展</h5>
-                <p class="card-text fs-5">
-                    $350
-                </p>
+            <div class="swiper-slide">
+                <div class="card border-0">
+                    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg?raw=true"
+                        class="card-img-top mb-1" alt="...">
+                    <div class="card-body p-0">
+                        <h5 class="card-title fw-bold">No.22 線上設計展</h5>
+                        <p class="card-text h5 mb-1">$350</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -259,18 +270,19 @@ current: index
 
 <!-- 訂閱 subscribe -->
 <section class="container-fluid subscribe bg-cover mb-md-7 mb-4  pb-9">
-    <div class="container d-flex flex-column justify-content-end h-100">
-        <h5 class="text-white mb-3 fs-4 fs-md-2">
-            想收到展覽的最新消息嗎？ <br />快訂閱我們！
-        </h5>
+    <div class="container h-100 d-flex align-items-end">
+        <div class="row ">
+            <label for="basic-url" class="form-label text-white mb-3 fs-4 fs-md-2">
+                想收到展覽的最新消息嗎？ <br />快訂閱我們！
+            </label>
 
-        <div class="d-flex align-items-center col-12">
-            <p class="subscribe-mail p-3 rounded-start flex-md-grow-0 flex-md-shrink-0 flex-grow-1 flex-shrink-1">
-                輸入您的電子信箱</p>
-            <a href="#"
-                class="subscribe-button btn text-white p-3 rounded-end flex-md-grow-0 flex-md-shrink-0 flex-grow-1 flex-shrink-1">Button</a>
+            <div class="input-group col-12 col-md-4">
+                <input type="text" class="form-control subscribe-mail" id="basic-url" aria-describedby="basic-addon3"
+                    placeholder="輸入您的電子信箱">
+                <span class="input-group-text subscribe-button btn text-white p-3 rounded-end"
+                    id="basic-addon3">訂閱</span>
+            </div>
         </div>
-    </div>
     </div>
 </section>
 

@@ -1,9 +1,9 @@
 // Banner
 .banner-full {
-    height: 480px;
     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/ricardo-gomez-angel-UrOZTfXT0h0-unsplash%20(1).jpg");
 
     .banner {
+        height: 480px;
         &-title {
             color: white;
             font-size: 32px;
@@ -25,9 +25,14 @@
 
 // Menu
 .menu {
+    height: 52px;
+    overflow-y: hidden;
     &-list {
-        overflow-x: scroll;
+        overflow-x: auto;
         white-space: nowrap;
+    }
+    &-link:hover {
+        border-bottom: 1px solid #e31277;
     }
 }
 
@@ -81,9 +86,21 @@
 
 // 猜你也喜歡... like
 .like {
-    &-image {
-        width: 350px;
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px !important;
+    }
+
+    .card-img-top {
         height: 350px;
+        object-fit: cover;
     }
 }
 
@@ -93,10 +110,10 @@
     height: 400px;
     &-mail {
         background-color: white;
-        flex-basis: 210px;
+        // flex-basis: 210px;
     }
     &-button {
         background-color: #e31277;
-        flex-basis: 135px;
+        // flex-basis: 135px;
     }
 }
